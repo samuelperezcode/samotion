@@ -8,8 +8,8 @@ export function Logo () {
       <Image
         src={'/logo.svg'}
         alt="Samotion logo"
-        width={56}
-        height={56}
+        width={40}
+        height={40}
       />
       <p className={cn(
         'font-semibold text-xl antialiased',
