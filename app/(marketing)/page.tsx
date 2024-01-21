@@ -1,4 +1,4 @@
-import { Heading, Heroes } from './components/'
+import { Heading, Heroes, Footer } from './components/'
 
 export default function MarketingPage () {
   return (
@@ -7,6 +7,7 @@ export default function MarketingPage () {
         <Heading />
         <Heroes />
       </section>
+      <Footer />
     </main>
   )
 }
